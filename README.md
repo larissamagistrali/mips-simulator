@@ -1,1 +1,1 @@
-# Trabalho 2 da disciplina Organização e Arquitetura de Computadores
+<img src="https://github.com/larissamagistrali/mips-simulator/blob/master/print.png" alt="" height=600>
