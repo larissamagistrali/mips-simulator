@@ -24,7 +24,7 @@ public class MemoriaDeDados {
     private MemoriaDeDados() {
         this.posicaoAtual = 0;
         this.memoria = new String[SIZE];
-        this.referencia = new HashMap<>();
+        this.referencia = new HashMap<String, Integer>();
     }
 
     //Singleton

@@ -146,7 +146,7 @@ public class BlocoDeControle {
             this.AluSrc = 0; //X
             this.RegWrite = 0;
         } else if (opcode.equals("001101")) { //ori
-            this.RegDst = 0; //MUDAR PQ TÁ AO CONTRARIO EM TODASSSSSSSSSSS
+            this.RegDst = 0; //MUDAR PQ TÃ� AO CONTRARIO EM TODASSSSSSSSSSS
             this.Jump = 0;
             this.Branch = 0; //X
             this.MemRead = 0;
@@ -186,7 +186,7 @@ public class BlocoDeControle {
     }
 
     public HashMap<String, Integer> getSinaisDeControle() {
-        HashMap<String, Integer> sinais = new HashMap<>();
+        HashMap<String, Integer> sinais = new HashMap<String, Integer>();
         sinais.put("Jump", this.Jump);
         sinais.put("RegDst", this.RegDst);
         sinais.put("RegWrite", this.RegWrite);
